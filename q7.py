@@ -8,12 +8,18 @@ if r==1:
     elif s==100:
         print("You are a master!")
 
+    else:
+        print("You are not eligible!")
+
 elif r==0:
     if s>70:
         print("You are eligible!")
 
     elif s==100:
         print("You are a master!")
+
+    else:
+        print("You are not eligible!")
 
 elif s<50:
     print("You are not eligible!")
